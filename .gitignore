@@ -1,0 +1,49 @@
+# Local environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.DS_Store
+._*
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+config.yaml
+credentials/
+*.pem
+*.key
+.idea/
+.vscode/
+
+# Research inputs and large intermediate outputs
+data/
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+results/tables.md
+results/models/tables.md
+
+# Local documents
+paper/
+paper2/
+*.pdf
+*.docx
+*.pptx
+*.tex
+*.bib
+review_findings*.json
+
+# Packaging and scratch output
+build/
+dist/
+*.egg-info/
+private/
+scratch/

@@ -1,0 +1,11 @@
+# Python 3.11 reproduction environment for the full research pipeline.
+# The original complete environment was not archived; see README.md.
+numpy==1.26.4
+pandas==2.3.0
+scipy==1.17.1
+statsmodels==0.14.6
+matplotlib==3.10.9
+scikit-learn==1.8.0
+lightgbm==4.6.0
+# pandas.read_parquet / DataFrame.to_parquet need a Parquet engine.
+pyarrow==14.0.2
